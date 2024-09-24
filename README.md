@@ -4,7 +4,7 @@
 
 **Simple-Data-Analytics-Projects** involves analyzing a dataset of sales transactions to identify trends and patterns : clean the data, perform exploratory data analysis (EDA), and visualize the results.
 
-# My Performed Steps
+## My Performed Steps
 
 ## Steps to Analyze `sales_data_sample.csv`
 
@@ -33,7 +33,7 @@
 7. **Save Results**:
    data.to_csv('cleaned_sales_data.csv', index=False)
 
-# Commit and Push Changes
+## Commit and Push Changes
    git add README.md
    git commit -m "Added steps for analyzing sales_data_sample.csv"
    git push origin main
