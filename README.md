@@ -13,9 +13,9 @@
    import pandas as pd
    data = pd.read_csv('sales_data_sample.csv')
 2. **Explore the Data**:
-   print(data.head())
-   print(data.info())
-   print(data.describe())
+   print(data.head())  # Display the first few rows
+   print(data.info())  # Get information about data types and missing values
+   print(data.describe())  # Get summary statistics
 3. **Clean the Data**:
    data.dropna(inplace=True)
    data.drop_duplicates(inplace=True)
